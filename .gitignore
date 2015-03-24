@@ -6,7 +6,7 @@
 *.exe
 *.o
 *.so
-_site
+*.pyc
 
 # Packages #
 ############
@@ -34,12 +34,30 @@ _site
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
 Thumbs.db
 
-# Dependencies #
+# Built assets #
 ################
+dist
+src/bundle.js
+src/vendor
+src/fonts
+coverage
+.coverrun
+
+# IP #
+######
+ip
+config.js
+config.json
+test/browser_testing/features/environment.cfg
+
+# node #
+########
+npm-debug.log
 node_modules/
-bower_components/
-src/vendor/
+
+# Floobits #
+############
+.floo
