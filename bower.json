@@ -22,8 +22,8 @@
   "license": "https://github.com/cfpb/cf-buttons/blob/gh-pages/TERMS.md",
   "main": "src/cf-buttons.less",
   "dependencies": {
-    "cf-core": "latest",
-    "cf-icons": "latest"
+    "cf-core": "contolini/cf-core#pure-less",
+    "cf-icons": "contolini/cf-icons#pure-less"
   },
   "exportsOverride": {
     "cf-*": {
